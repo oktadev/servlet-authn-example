@@ -14,12 +14,30 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <jetty.version>9.4.18.v20190429</jetty.version>
     <okta.version>1.5.2</okta.version>
+    <okta.auth.version>1.0.0</okta.auth.version>
     <jstl.version>1.2</jstl.version>
     
   </properties>
  
      <dependencies>
-        
+        <dependency>
+            <groupId>com.okta.authn.sdk</groupId>
+            <artifactId>okta-authn-sdk-api</artifactId>
+            <version>${okta.auth.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.okta.authn.sdk</groupId>
+            <artifactId>okta-authn-sdk-impl</artifactId>
+            <version>${okta.auth.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.okta.sdk</groupId>
+            <artifactId>okta-sdk-okhttp</artifactId>
+            <version>${okta.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+
         <!--Jetty dependencies start here -->
         <dependency>
             <groupId>org.eclipse.jetty</groupId>

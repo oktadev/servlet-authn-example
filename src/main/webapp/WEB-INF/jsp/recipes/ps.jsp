@@ -1,5 +1,11 @@
 
+<jsp:include page="/WEB-INF/jsp/includes/header.jsp"/>
 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<body>
+<jsp:include page="/WEB-INF/jsp/includes/menu.jsp"/>
+<div class="recipe">
 <h1>Butternut Squash Soup</h1>
 (Oh yeah, and you can thank <b>Tasty.co</b> for this!  After all, I am really a programmer, not a cook!
 <a href="https://tasty.co/recipe/slow-cooker-butternut-squash-soup">https://tasty.co/recipe/slow-cooker-butternut-squash-soup</a>)
@@ -421,4 +427,5 @@
 </div>
 
       </div>
-
+</div>
+<jsp:include page="/WEB-INF/jsp/includes/footer.jsp"/>
