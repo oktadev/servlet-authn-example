@@ -15,11 +15,6 @@
   ~ limitations under the License.
 
   --%>
-  <%        
-    response.setHeader("Pragma", "No-cache");
-    response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
-    response.setDateHeader("Expires", -1);
-%>
 <jsp:include page="includes/header.jsp"/>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
