@@ -1,5 +1,12 @@
+<jsp:include page="/WEB-INF/jsp/includes/header.jsp"/>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<body>
+<jsp:include page="/WEB-INF/jsp/includes/menu.jsp"/>
 
 
+<div class="recipe">
 <h1>Eggplant Parmesean</h1>
 (Oh yeah, and you can thank <b>Tasty.co</b> for this!  After all, I am really a programmer, not a cook!
 <a href="https://tasty.co/recipe/the-best-eggplant-parmesan">https://tasty.co/recipe/the-best-eggplant-parmesan</a>)
@@ -78,7 +85,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              ½ teaspoon
+              Â½ teaspoon
             </section>
           
           
@@ -95,7 +102,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              ½ teaspoon
+              Â½ teaspoon
             </section>
           
           
@@ -112,7 +119,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              ½ teaspoon
+              Â½ teaspoon
             </section>
           
           
@@ -129,7 +136,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              ½ teaspoon
+              Â½ teaspoon
             </section>
           
           
@@ -167,7 +174,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              2 ½ cups
+              2 Â½ cups
             </section>
           
           
@@ -298,7 +305,7 @@
       
       
       
-            <li class="xs-mb2">Cut each eggplant into about ½-inch (1-cm) thick round slices.</li>
+            <li class="xs-mb2">Cut each eggplant into about Â½-inch (1-cm) thick round slices.</li>
       
       
       
@@ -328,7 +335,7 @@
       
       
       
-            <li class="xs-mb2">Heat the vegetable oil in a large frying pan until it reaches 375°F (190°C).</li>
+            <li class="xs-mb2">Heat the vegetable oil in a large frying pan until it reaches 375Â°F (190Â°C).</li>
       
       
       
@@ -338,7 +345,7 @@
       
       
       
-            <li class="xs-mb2">Preheat the oven to 350°F (180°C).</li>
+            <li class="xs-mb2">Preheat the oven to 350Â°F (180Â°C).</li>
       
       
       
@@ -348,12 +355,12 @@
       
       
       
-            <li class="xs-mb2">Pour about 1 cup (260 g) of marinara sauce into a 2½-quart (2 L) baking dish and spread evenly to cover the bottom of the dish.</li>
+            <li class="xs-mb2">Pour about 1 cup (260 g) of marinara sauce into a 2Â½-quart (2 L) baking dish and spread evenly to cover the bottom of the dish.</li>
       
       
       
       
-            <li class="xs-mb2">Add about 8 eggplant slices (it’s okay if they overlap) and cover with ½ cup (130 g) of marinara. Sprinkle with a third of the fresh basil, then top with about a third of the shredded mozzarella and Parmesan. Repeat to make 2 more layers. Finish with the fresh mozzarella cheese and a final sprinkling of Parmesan.</li>
+            <li class="xs-mb2">Add about 8 eggplant slices (itâs okay if they overlap) and cover with Â½ cup (130 g) of marinara. Sprinkle with a third of the fresh basil, then top with about a third of the shredded mozzarella and Parmesan. Repeat to make 2 more layers. Finish with the fresh mozzarella cheese and a final sprinkling of Parmesan.</li>
       
       
       
@@ -378,4 +385,5 @@
 </div>
 
       </div>
-
+</div>
+<jsp:include page="/WEB-INF/jsp/includes/footer.jsp"/>
