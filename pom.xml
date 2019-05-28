@@ -12,14 +12,75 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <jetty.version>9.4.18.v20190429</jetty.version>
+    <okta.version>1.5.2</okta.version>
+    <okta.auth.version>1.0.0</okta.auth.version>
+    <jstl.version>1.2</jstl.version>
+    
   </properties>
+ 
+     <dependencies>
+        <dependency>
+            <groupId>com.okta.authn.sdk</groupId>
+            <artifactId>okta-authn-sdk-api</artifactId>
+            <version>${okta.auth.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.okta.authn.sdk</groupId>
+            <artifactId>okta-authn-sdk-impl</artifactId>
+            <version>${okta.auth.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.okta.sdk</groupId>
+            <artifactId>okta-sdk-okhttp</artifactId>
+            <version>${okta.version}</version>
+            <scope>runtime</scope>
+        </dependency>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+        <!--Jetty dependencies start here -->
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-server</artifactId>
+            <version>${jetty.version}</version>
+        </dependency>
+ 
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-webapp</artifactId>
+            <version>${jetty.version}</version>
+             
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-annotations</artifactId>
+            <version>${jetty.version}</version>
+        </dependency>
+        <!-- Jetty Dependencies end here -->
+ 
+        <!--Jetty Apache JSP dependency  -->
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>apache-jsp</artifactId>
+            <version>${jetty.version}</version>
+             
+        </dependency>
+ 
+        <!-- JSTL Dependency -->
+ 
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${jstl.version}</version>
+        </dependency>
+        
+        
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+            <scope>runtime</scope>
+        </dependency>
+    </dependencies>
+  
 </project>
