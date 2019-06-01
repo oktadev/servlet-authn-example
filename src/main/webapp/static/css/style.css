@@ -28,3 +28,7 @@
 .demo-mfa-icon-sms:before {
     content: "\e145";
 }
+
+.recipe{
+	margin:15px;
+}
