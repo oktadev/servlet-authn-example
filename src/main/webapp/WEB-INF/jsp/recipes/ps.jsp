@@ -116,7 +116,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              Â½ teaspoon
+              ½ teaspoon
             </section>
           
           
@@ -133,7 +133,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              Â½ teaspoon
+              ½ teaspoon
             </section>
           
           
@@ -150,7 +150,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              Â½ teaspoon
+              ½ teaspoon
             </section>
           
           
@@ -167,7 +167,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              Â½ teaspoon
+              ½ teaspoon
             </section>
           
           
@@ -184,7 +184,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              â teaspoon
+               teaspoon
             </section>
           
           
@@ -201,7 +201,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              1 Â½ teaspoons
+              1 ½ teaspoons
             </section>
           
           
@@ -218,7 +218,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              Â¼ teaspoon
+              ¼ teaspoon
             </section>
           
           
@@ -235,7 +235,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              Â½ teaspoon
+              ½ teaspoon
             </section>
           
           
@@ -252,7 +252,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              Â¼ cup
+              ¼ cup
             </section>
           
           

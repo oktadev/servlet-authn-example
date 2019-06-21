@@ -32,7 +32,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              Â½ cup
+              ½ cup
             </section>
           
           
@@ -74,7 +74,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              Â½ cup
+              ½ cup
             </section>
           
           
@@ -175,7 +175,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              Â¾ cup
+              ¾ cup
             </section>
           
           
@@ -196,7 +196,7 @@
 
           
             <section class="measurement us-measurement xs-inline-block">
-              Â¾ cup
+              ¾ cup
             </section>
           
           
@@ -435,7 +435,7 @@
       
       
       
-            <li class="xs-mb2">After 1 hour, the dough should have nearly doubled in size. Remove the towel and add an additional Â¾ cup (95 grams) of flour, the baking powder, and salt. Stir well, then turn out onto a well-floured surface. </li>
+            <li class="xs-mb2">After 1 hour, the dough should have nearly doubled in size. Remove the towel and add an additional ¾ cup (95 grams) of flour, the baking powder, and salt. Stir well, then turn out onto a well-floured surface. </li>
       
       
       
@@ -445,7 +445,7 @@
       
       
       
-            <li class="xs-mb2">Roll the dough out into a large rectangle, about Â½ inch (1.5 cm) thick. Fix corners to make sure they are sharp and even.</li>
+            <li class="xs-mb2">Roll the dough out into a large rectangle, about ½ inch (1.5 cm) thick. Fix corners to make sure they are sharp and even.</li>
       
       
       
