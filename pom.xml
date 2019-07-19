@@ -12,8 +12,10 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.target>8</maven.compiler.target>
+    <maven.compiler.source>8</maven.compiler.source>
     <jetty.version>9.4.18.v20190429</jetty.version>
-    <okta.version>1.5.2</okta.version>
+    <okta.sdk.version>1.5.2</okta.sdk.version>
     <okta.auth.version>1.0.0</okta.auth.version>
     <jstl.version>1.2</jstl.version>
     
@@ -33,8 +35,8 @@
         </dependency>
         <dependency>
             <groupId>com.okta.sdk</groupId>
-            <artifactId>okta-sdk-okhttp</artifactId>
-            <version>${okta.version}</version>
+            <artifactId>okta-sdk-httpclient</artifactId>
+            <version>${okta.sdk.version}</version>
             <scope>runtime</scope>
         </dependency>
 
@@ -98,7 +100,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.example.joy.servletlogin.Application</mainClass>
+                    <mainClass>com.example.joy.servlet.login.Application</mainClass>
                 </configuration>
             </plugin>
         </plugins>
