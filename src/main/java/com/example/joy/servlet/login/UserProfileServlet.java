@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.joy.servletLogin;
+package com.example.joy.servlet.login;
 
 import com.okta.authn.sdk.resource.User;
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.joy.servletLogin;
+package com.example.joy.servlet.login;
 
 import java.io.IOException;
 
@@ -24,7 +24,6 @@ import javax.servlet.http.HttpServletResponse;
 import com.okta.authn.sdk.AuthenticationException;
 import com.okta.authn.sdk.client.AuthenticationClient;
 import com.okta.authn.sdk.resource.AuthenticationResponse;
-import com.okta.authn.sdk.resource.VerifyRecoveryRequest;
 import com.okta.sdk.resource.user.factor.FactorType;
 
 /**

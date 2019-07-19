@@ -1,43 +1,48 @@
 <web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
-    version="2.5">
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
     <display-name>JSP Example Application</display-name>
- 
+
+    <context-param>
+        <param-name>orgUrl</param-name>
+        <param-value>https://{yourOktaDomain}</param-value>
+    </context-param>
+
     <listener>
-    <listener-class>
-             com.example.joy.servletLogin.AuthenticationServletContextListener 
+        <listener-class>
+            com.example.joy.servlet.login.AuthenticationServletContextListener
         </listener-class>
-   </listener>
+    </listener>
     <servlet>
-	   <servlet-name>ep</servlet-name>
-	   <jsp-file>/WEB-INF/jsp/recipes/ep.jsp</jsp-file>
-	</servlet>
-	<servlet-mapping>
-	  <servlet-name>ep</servlet-name>
-	  <url-pattern>/recipes/ep</url-pattern>
-	</servlet-mapping>
-	<servlet>
-       <servlet-name>cr</servlet-name>
-       <jsp-file>/WEB-INF/jsp/recipes/cr.jsp</jsp-file>
+        <servlet-name>ep</servlet-name>
+        <jsp-file>/WEB-INF/jsp/recipes/ep.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-      <servlet-name>cr</servlet-name>
-      <url-pattern>/recipes/cr</url-pattern>
+        <servlet-name>ep</servlet-name>
+        <url-pattern>/recipes/ep</url-pattern>
     </servlet-mapping>
     <servlet>
-       <servlet-name>ps</servlet-name>
-       <jsp-file>/WEB-INF/jsp/recipes/ps.jsp</jsp-file>
+        <servlet-name>cr</servlet-name>
+        <jsp-file>/WEB-INF/jsp/recipes/cr.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-      <servlet-name>ps</servlet-name>
-      <url-pattern>/recipes/ps</url-pattern>
+        <servlet-name>cr</servlet-name>
+        <url-pattern>/recipes/cr</url-pattern>
     </servlet-mapping>
     <servlet>
-       <servlet-name>profile</servlet-name>
-       <servlet-class>com.example.joy.servletLogin.UserProfileServlet</servlet-class>
+        <servlet-name>ps</servlet-name>
+        <jsp-file>/WEB-INF/jsp/recipes/ps.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-      <servlet-name>profile</servlet-name>
-      <url-pattern>/profile</url-pattern>
+        <servlet-name>ps</servlet-name>
+        <url-pattern>/recipes/ps</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>profile</servlet-name>
+        <servlet-class>com.example.joy.servlet.login.UserProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>profile</servlet-name>
+        <url-pattern>/profile</url-pattern>
     </servlet-mapping>
 </web-app>

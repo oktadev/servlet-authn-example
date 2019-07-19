@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.joy.servletLogin;
+package com.example.joy.servlet.login;
 
 import com.okta.authn.sdk.AuthenticationException;
 import com.okta.sdk.resource.ResourceException;
@@ -24,7 +24,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-import static com.example.joy.servletLogin.AuthenticationActions.forward;
+import static com.example.joy.servlet.login.AuthenticationActions.forward;
 
 /**
  * Boiler plate code reduction to help make this sample project easier to
@@ -40,12 +40,7 @@ class AuthenticationLambdaServlet extends HttpServlet {
     private final AuthenticationServletHandler postConsumer;
 
     AuthenticationLambdaServlet(final String path, AuthenticationServletHandler postConsumer) {
-        this(new AuthenticationServletHandler() {
-            public void service(HttpServletRequest request, HttpServletResponse response)
-                    throws ServletException, IOException, AuthenticationException {
-                forward(path, request, response);
-            }
-        }, postConsumer);
+        this((request, response) -> forward(path, request, response), postConsumer);
     }
 
     AuthenticationLambdaServlet(AuthenticationServletHandler renderConsumer,

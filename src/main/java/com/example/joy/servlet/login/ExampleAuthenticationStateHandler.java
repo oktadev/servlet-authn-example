@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.joy.servletLogin;
+package com.example.joy.servlet.login;
 
+import com.example.joy.servlet.login.OktaFilter;
 import com.okta.authn.sdk.AuthenticationStateHandlerAdapter;
 import com.okta.authn.sdk.resource.AuthenticationResponse;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.Locale;
 
 /**
  * An {@link com.okta.authn.sdk.AuthenticationStateHandler AuthenticationStateHandler} that redirects to a JSP corresponding a given state.

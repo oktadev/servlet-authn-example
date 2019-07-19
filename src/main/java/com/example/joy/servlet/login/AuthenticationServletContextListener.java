@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.joy.servletLogin;
+package com.example.joy.servlet.login;
 
 import javax.servlet.DispatcherType;
 import javax.servlet.Filter;
@@ -24,7 +24,7 @@ import javax.servlet.annotation.WebListener;
 
 import com.okta.authn.sdk.client.AuthenticationClient;
 import com.okta.authn.sdk.client.AuthenticationClients;
-import com.example.joy.servletLogin.AuthenticationLambdaServlet.AuthenticationServletHandler;
+import com.example.joy.servlet.login.AuthenticationLambdaServlet.AuthenticationServletHandler;
 
 import java.util.EnumSet;
 
@@ -38,7 +38,7 @@ public class AuthenticationServletContextListener implements ServletContextListe
 
         // configuration can be pulled from various sources, see https://github.com/okta/okta-auth-java#configuration-reference
         AuthenticationClient authenticationClient = AuthenticationClients.builder()
-                .setOrgUrl("https://dev-819884.okta.com")
+                .setOrgUrl(sce.getServletContext().getInitParameter("orgUrl"))
                 .build();
 
 
