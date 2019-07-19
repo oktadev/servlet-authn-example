@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.joy.servletlogin;
+package com.example.joy.servlet.login;
 
 
 import org.eclipse.jetty.annotations.AnnotationConfiguration;
